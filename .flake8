@@ -1,0 +1,9 @@
+[flake8]
+# Exclude files and directories
+exclude = venv,.venv,my_env,.git,__pycache__,tests
+
+# Ignore specific rules
+ignore = E203, W503
+
+# Maximum line length
+max-line-length = 88
