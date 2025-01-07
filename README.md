@@ -69,3 +69,5 @@ These tools can be used under pre-commit hooks before committing the code or pus
 isort . && black . && flake8 . && mypy .
 ```
 
+### 8. Notes
+- The application uses an in-memory database to store the sheets and cell values, a proper database can be used for production.
